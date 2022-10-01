@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   background: linear-gradient(
     109.6deg,
     rgb(238, 241, 241) 11.2%,
@@ -7,13 +6,6 @@ body {
   );
   font-family: "Montserrat", sans-serif;
   color: rgb(190, 190, 190);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 h2 {
@@ -41,7 +33,7 @@ h4 {
   padding: 20px;
   border: 1px solid gray;
   border-radius: 5px;
-  background-image: url("/public/images/background4.jpg");
+  background-image: url("../images/background4.jpg");
   text-align: center;
   height: 525px;
 }
